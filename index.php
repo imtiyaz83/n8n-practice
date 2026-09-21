@@ -4,7 +4,7 @@ function login($username, $password)
 {
     $query = "SELECT * FROM users 
               WHERE username = '$username' 
-              AND password = '$password'";
+              AND password = '$password'"
 
     $result = mysqli_query($connection, $query);
 
