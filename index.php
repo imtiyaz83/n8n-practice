@@ -2,7 +2,7 @@
 
 function login($username, $password)
 {
-    $query = "SELECT * FROM users 
+    $query = "SELECT  FROM users 
               WHERE username = '$username' 
               AND password = '$password'";
 
