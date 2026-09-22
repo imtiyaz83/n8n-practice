@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $stmt->execute([
             ':email' => $email
-        ])
+        ]);
 
         $user = $stmt->fetch();
 
