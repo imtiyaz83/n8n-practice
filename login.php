@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config.php'
+require_once 'config.php';
 
 // If already logged in, redirect to home
 if (isset($_SESSION['user_id'])) {
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $stmt->execute([
             ':email' => $email
-        ]);
+        ])
 
         $user = $stmt->fetch();
 
