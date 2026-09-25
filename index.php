@@ -1,6 +1,6 @@
 <?php
 
-requir_once 'config.php';
+require_once 'config.php';
 
 // Check authentication
 if (!isset($_SESSION['user_id'])) {
