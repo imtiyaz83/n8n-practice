@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             FROM users
             WHERE email = :email
             LIMIT 1
-        ")
+        ");
 
         $stmt->execute([
             ':email' => $email
