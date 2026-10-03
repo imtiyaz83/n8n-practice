@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config.php';
+require_once 'config.php'
 
 // If already logged in, redirect to home
 if (isset($_SESSION['user_id'])) {
@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             FROM users
             WHERE email = :email
             LIMIT 1
-        ")
+        ");
 
         $stmt->execute([
             ':email' => $email
