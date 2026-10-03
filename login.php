@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config.php'
+require_once 'config.php';
 
 // If already logged in, redirect to home
 if (isset($_SESSION['user_id'])) {
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = trim($_POST['email'] ?? '');
     $password = $_POST['password'] ?? '';
 
-    if (empty($email) || empty($password)) {
+    if (empty(email) || empty($password)) {
         $error = 'Please enter your email and password.';
     } else {
 
