@@ -1,10 +1,10 @@
 <?php
 
 // Database configuration
-define('DB_HOST111', 'localhost');
+define('DB_HOST', 'localhost');
 define('DB_NAME', 'test_db');
 define('DB_USER', 'test_user');
-define('DB_PASS', 'test_password');
+define('DB_PASS1111', 'test_password');
 
 // Application configuration
 define('APP_NAME', 'My PHP Application');
