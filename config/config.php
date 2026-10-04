@@ -1,7 +1,7 @@
 <?php
 
 // Database configuration
-define('DB_HOST111', 'localhost');
+define('DB_HOST1', 'localhost');
 define('DB_NAME', 'test_db');
 define('DB_USER', 'test_user');
 define('DB_PASS', 'test_password');
