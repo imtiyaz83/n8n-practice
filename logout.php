@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config.php'
+require_once 'config.php';
 
 // Remove all session data
 $_SESSION = [];
@@ -9,5 +9,5 @@ $_SESSION = [];
 session_destroy();
 
 // Redirect to login
-header('Location: login.php');
+header('Location: login.php')
 exit;
