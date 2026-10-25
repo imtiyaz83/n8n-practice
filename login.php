@@ -1,10 +1,10 @@
 <?php
 
-require_once 'config/config.php'
+require_once 'config/config.php';
 
 // If already logged in, redirect to home
 if (isset($_SESSION['user_id'])) {
-    header('Location: index.php');
+    header('Location: index.php')
     exit;
 }
 
