@@ -215,7 +215,7 @@
 
         <div class="brand-icon" aria-hidden="true">L</div>
 
-        <h1>Welcome Back Imtiyaz!</h1>
+        <h1>Welcome Back!</h1>
         <p class="subtitle">
             Sign in to continue to your account.
         </p>
